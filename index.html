@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aarogya Physio | Physiotherapy & Rehab Centre in Bijainagar, Beawar</title>
+<meta name="description" content="Aarogya Physio, Bijainagar: expert physiotherapy for back pain, slip disc, sports injuries, ligament tears and joint pain by Dr. Rakesh Kumawat. 5.0★ rated. Open 7 days.">
+<meta property="og:title" content="Aarogya Physio, Bijainagar">
+<meta property="og:description" content="Expert physiotherapy and rehabilitation care for pain-free living. Dr. Rakesh Kumawat. Open 7 days.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#14284B">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2314284B'/%3E%3Cpath d='M8 34h12l5-12 8 22 6-14 3 4h14' stroke='%232A9D8F' stroke-width='5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Manrope:wght@400;500;700&family=Mukta:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F5F3EE; --ink:#1E2430; --navy:#14284B; --teal:#2A9D8F; --mint:#E3EEEA; --line:#D8DCD9;
+  --display:'Fraunces',serif; --body:'Manrope',sans-serif; --hindi:'Mukta',sans-serif;
+  --r:16px; --gap:clamp(64px,10vw,112px);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.65;padding-bottom:70px}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--display);font-weight:500;line-height:1.12;color:var(--navy)}
+.hi{font-family:var(--hindi);font-weight:500;color:var(--teal);font-size:.9em;display:block}
+.wrap{width:min(1160px,92%);margin:auto}
+section{padding:var(--gap) 0}
+.eyebrow{font-size:.8rem;letter-spacing:.16em;text-transform:uppercase;color:var(--teal);font-weight:700;display:flex;align-items:center;gap:10px}
+.eyebrow svg{width:44px;height:16px}
+h2{font-size:clamp(2rem,5vw,3rem);margin:.3em 0 .5em;max-width:20ch}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 22px;border-radius:999px;font-weight:700;text-decoration:none;border:2px solid var(--teal);transition:transform .15s}
+.btn:active{transform:scale(.97)}
+.btn-fill{background:var(--teal);color:var(--bg)}
+.btn-line{color:var(--navy);border-color:var(--navy)}
+.btn svg{width:18px;height:18px}
+/* header */
+header{position:sticky;top:0;z-index:50;background:var(--bg);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:68px;gap:10px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+.logo .mark{width:40px;height:40px;border-radius:12px;background:var(--navy);display:grid;place-items:center}
+.logo b{font-family:var(--hindi);font-size:1.3rem;color:var(--navy)}
+.logo b span{font-family:var(--display);color:var(--teal)}
+.logo small{display:block;font-size:.7rem;opacity:.7;margin-top:-6px}
+.links{display:none;gap:26px}
+.links a{text-decoration:none;font-weight:500}
+.links a:hover{color:var(--teal)}
+.hbtns{display:flex;gap:8px;align-items:center}
+.hbtns .btn{padding:8px 13px;font-size:.86rem}
+.hbtns .btn span{display:none}
+.burger{background:none;border:0;width:40px;height:40px;cursor:pointer}
+.burger i{display:block;height:2px;background:var(--ink);margin:6px 8px}
+.mnav{display:none;flex-direction:column;border-top:1px solid var(--line);padding:10px 4%}
+.mnav.open{display:flex}
+.mnav a{padding:12px 0;text-decoration:none;border-bottom:1px solid var(--line);font-weight:500}
+/* hero */
+.hero{padding-top:44px;position:relative;overflow:hidden}
+.hero-grid{display:grid;gap:40px}
+.hero h1{font-size:clamp(2.1rem,6.5vw,3.8rem)}
+.hero h1 em{font-style:italic;color:var(--teal)}
+.proof{margin:18px 0 26px;font-size:1.06rem;max-width:40ch;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.stars{display:inline-flex;gap:2px}
+.stars svg{width:18px;height:18px}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.micro{margin-top:16px;font-size:.88rem;opacity:.75}
+.hero-vis{position:relative}
+.hero-vis img{border-radius:var(--r) 120px var(--r) var(--r);aspect-ratio:4/5;object-fit:cover;width:100%}
+.badge{position:absolute;left:-8px;bottom:26px;background:var(--navy);color:var(--bg);padding:14px 18px;border-radius:var(--r);font-size:.9rem;max-width:210px}
+.badge b{font-family:var(--display);font-size:1.6rem;display:block;color:var(--mint)}
+.pulse-bg{position:absolute;left:0;right:0;top:56%;width:100%;height:80px;opacity:.12;pointer-events:none}
+/* trust */
+.trust{padding:0}
+.trust .wrap{display:grid;grid-template-columns:1fr 1fr;border-radius:var(--r);background:var(--navy);color:var(--bg);overflow:hidden}
+.stat{padding:24px 18px;border-right:1px solid #2A3E63;border-bottom:1px solid #2A3E63}
+.stat b{font-family:var(--display);font-weight:500;font-size:2.2rem;color:var(--mint);display:block;line-height:1}
+.stat span{font-size:.9rem}
+/* services */
+.cards{display:grid;gap:18px;margin-top:30px}
+.card{background:var(--mint);border-radius:var(--r);padding:26px;display:flex;flex-direction:column;gap:8px}
+.card .ic{width:50px;height:50px;border-radius:14px;background:var(--bg);display:grid;place-items:center}
+.card .ic svg{width:28px;height:28px}
+.card h3{font-size:1.35rem}
+.card p{font-size:.95rem;flex:1}
+.price{font-weight:700;color:var(--navy)}
+.card .btn{padding:9px 16px;font-size:.88rem;align-self:flex-start;margin-top:6px}
+.card.big{background:var(--navy);color:var(--bg)}
+.card.big h3,.card.big .price{color:var(--bg)}
+.card.big .hi{color:var(--mint)}
+/* about */
+.about-grid{display:grid;gap:40px}
+.avatar{width:140px;height:140px;border-radius:50%;background:var(--teal);color:var(--bg);font-family:var(--display);font-size:3.2rem;display:grid;place-items:center;margin-bottom:24px;box-shadow:0 0 0 8px var(--mint)}
+.about p{margin-bottom:1em;max-width:60ch}
+.sign{font-family:var(--display);color:var(--navy);font-size:1.3rem;font-style:italic}
+.diff{list-style:none;display:grid;gap:4px;align-content:start}
+.diff li{display:flex;gap:14px;padding:16px 0;border-bottom:1px solid var(--line)}
+.diff svg{flex:none;width:24px;height:24px;margin-top:2px}
+/* gallery break */
+.gallery{background:var(--navy);color:var(--bg)}
+.gallery h2{color:var(--bg)}
+.gal{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:28px}
+.gal img{width:100%;height:100%;object-fit:cover;border-radius:12px;aspect-ratio:1}
+.gal .tall{grid-row:span 2;aspect-ratio:auto}
+.gal .wide{grid-column:span 2;aspect-ratio:2/1}
+/* testimonials */
+.tgrid{display:grid;gap:26px;margin-top:30px}
+.t{border-left:3px solid var(--teal);padding:4px 0 4px 20px}
+.t q{display:block;font-size:1.04rem;margin:8px 0 10px}
+.t cite{font-style:normal;font-weight:700;color:var(--navy)}
+.t cite small{font-weight:400;opacity:.7}
+/* pricing */
+.plist{border-top:2px solid var(--navy);margin-top:20px}
+.prow{display:flex;justify-content:space-between;gap:12px;padding:14px 0;border-bottom:1px solid var(--line)}
+.prow span:last-child{font-weight:700;white-space:nowrap;color:var(--navy)}
+.pnote{margin-top:16px;font-size:.9rem;opacity:.8;max-width:60ch}
+/* contact */
+.cgrid{display:grid;gap:30px;margin-top:24px}
+.map{border-radius:var(--r);overflow:hidden;border:1px solid var(--line);min-height:320px}
+.map iframe{width:100%;height:100%;min-height:320px;border:0}
+.hours{display:grid;grid-template-columns:1fr auto;gap:8px 20px;margin:12px 0 24px}
+.hours span:nth-child(even){font-weight:700}
+.cl{list-style:none;display:grid;gap:12px}
+.cl a{text-decoration:none;font-weight:500;border-bottom:1px solid var(--line)}
+/* footer */
+footer{background:var(--mint);padding:64px 0 30px}
+.fgrid{display:grid;gap:30px}
+.fl{list-style:none;display:grid;gap:6px}
+.fl a{text-decoration:none}
+.bigwa{font-size:1.05rem;padding:16px 26px}
+.credit{text-align:center;margin-top:40px;font-size:.8rem;opacity:.7;text-transform:lowercase}
+.divider{display:block;width:min(420px,80%);margin:0 auto;height:30px}
+/* sticky bar */
+.bar{position:fixed;bottom:0;left:0;right:0;display:grid;grid-template-columns:1fr 1fr;z-index:60}
+.bar a{display:flex;justify-content:center;align-items:center;gap:8px;padding:16px;font-weight:700;text-decoration:none}
+.bar a:first-child{background:var(--navy);color:var(--bg)}
+.bar a:last-child{background:var(--teal);color:var(--bg)}
+.bar svg{width:20px;height:20px}
+@media(min-width:520px){
+  .hbtns .btn span{display:inline}
+  .gal{grid-template-columns:repeat(3,1fr)}
+  .cards{grid-template-columns:1fr 1fr}
+}
+@media(min-width:769px){body{padding-bottom:0}.bar{display:none}}
+@media(min-width:820px){
+  .trust .wrap{grid-template-columns:repeat(4,1fr)}
+  .stat{border-bottom:0}.stat:last-child{border-right:0}
+  .hero-grid{grid-template-columns:1.15fr .85fr;align-items:center}
+  .about-grid{grid-template-columns:1.3fr 1fr}
+  .tgrid{grid-template-columns:repeat(3,1fr)}
+  .t:nth-child(2){margin-top:60px}
+  .cgrid{grid-template-columns:1.4fr 1fr}
+  .fgrid{grid-template-columns:2fr 1fr 1.5fr}
+  .gal{margin-right:-6vw}
+}
+@media(min-width:1080px){
+  .links{display:flex}.burger{display:none}.mnav{display:none!important}
+  .cards{grid-template-columns:repeat(6,1fr)}
+  .card{grid-column:span 2}
+  .card.big{grid-column:span 4}
+  .card.w3{grid-column:span 3}
+  .gal{grid-template-columns:repeat(4,1fr)}
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="pulse" viewBox="0 0 120 30"><path d="M0 15h34l6-11 9 22 7-16 4 5h60" fill="none" stroke="#2A9D8F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="runner" viewBox="0 0 24 24"><g fill="#F5F3EE"><circle cx="15" cy="4" r="2.2"/><path d="M13.5 7.5l-4 2-1.5 4 1.6.6 1.2-3 1.6-.8-1.6 5.2-3.6 4 1.3 1.2 4-4.4 2 2.3V22h1.8v-4.4l-2.4-2.9.9-3 1.2 1.7h3.3v-1.7h-2.4z"/></g></symbol>
+    <symbol id="spine" viewBox="0 0 24 24"><g fill="none" stroke="#14284B" stroke-width="1.8" stroke-linecap="round"><rect x="9" y="2" width="6" height="3.5" rx="1.2"/><rect x="8.5" y="7" width="7" height="3.5" rx="1.2"/><rect x="8.5" y="12" width="7" height="3.5" rx="1.2"/><rect x="9" y="17" width="6" height="3.5" rx="1.2"/></g></symbol>
+    <symbol id="check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="#2A9D8F"/><path d="M7 12.5l3 3 7-7" fill="none" stroke="#F5F3EE" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="phone" viewBox="0 0 24 24"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></symbol>
+    <symbol id="wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1 2.7c.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1 0-.3-.1-.5-.2z"/></symbol>
+    <symbol id="star" viewBox="0 0 24 24"><path fill="#E0A63A" d="M12 2l3 6.3 6.9.9-5 4.8 1.2 6.9L12 17.6 5.9 21l1.2-6.9-5-4.8 6.9-.9z"/></symbol>
+  </defs>
+</svg>
+
+<header>
+  <div class="wrap nav">
+    <a href="#top" class="logo" aria-label="Aarogya Physio home">
+      <span class="mark"><svg width="26" height="26"><use href="#runner"/></svg></span>
+      <div><b>आरोग्य <span>Physio</span></b><small>Bijainagar · Physiotherapy Centre</small></div>
+    </a>
+    <nav class="links" aria-label="Main">
+      <a href="#treatments">Treatments</a><a href="#about">Dr. Rakesh</a><a href="#reviews">Reviews</a><a href="#fees">Fees</a><a href="#contact">Visit</a>
+    </nav>
+    <div class="hbtns">
+      <a class="btn btn-line" href="tel:+919468901947" aria-label="Call"><svg><use href="#phone"/></svg><span>Call</span></a>
+      <a class="btn btn-fill" href="https://wa.me/919468901947?text=Namaste%20Dr.%20Rakesh%2C%20I%20want%20to%20book%20a%20physiotherapy%20appointment%20at%20Aarogya%20Physio." aria-label="WhatsApp"><svg><use href="#wa"/></svg><span>WhatsApp</span></a>
+      <button class="burger" aria-label="Open menu" aria-expanded="false" onclick="toggleNav(this)"><i></i><i></i><i></i></button>
+    </div>
+  </div>
+  <nav class="mnav" id="mnav" aria-label="Mobile">
+    <a href="#treatments">Treatments</a><a href="#about">Dr. Rakesh</a><a href="#reviews">Reviews</a><a href="#fees">Fees</a><a href="#contact">Visit</a>
+  </nav>
+</header>
+
+<main id="top">
+<section class="hero">
+  <svg class="pulse-bg" preserveAspectRatio="none" aria-hidden="true"><use href="#pulse"/></svg>
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow"><svg><use href="#pulse"/></svg>Krishi Mandi Chauraha, Bijainagar</p>
+      <h1>Walk, bend and play again without pain. <em>Expert physiotherapy</em> right here in Bijainagar!</h1>
+      <p class="proof"><span class="stars" aria-label="5 stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></span> <span><b>5.0 on Google</b> from 24 patient reviews</span></p>
+      <div class="cta">
+        <a class="btn btn-fill" href="https://wa.me/919468901947?text=Namaste%20Dr.%20Rakesh%2C%20I%20saw%20your%20website.%20I%20have%20pain%20in%20my%20___%20and%20want%20to%20book%20a%20check-up."><svg><use href="#wa"/></svg>Book on WhatsApp</a>
+        <a class="btn btn-line" href="tel:+919468901947"><svg><use href="#phone"/></svg>Call 94689 01947</a>
+      </div>
+      <p class="micro">Open all 7 days · No referral needed · Bring your X-ray or MRI if you have one</p>
+    </div>
+    <div class="hero-vis">
+      <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&auto=format&fit=crop" alt="Physiotherapist treating a patient's knee" width="800" height="1000" fetchpriority="high">
+      <div class="badge"><b>Dr. Rakesh Kumawat</b>Physiotherapy & rehab specialist</div>
+    </div>
+  </div>
+</section>
+
+<section class="trust" aria-label="Proof points">
+  <div class="wrap">
+    <div class="stat"><b>5.0★</b><span>Google rating, 24 reviews</span></div>
+    <div class="stat"><b>4+ yrs</b><span>serving Bijainagar</span></div>
+    <div class="stat"><b>7 days</b><span>open every week</span></div>
+    <div class="stat"><b>1-on-1</b><span>every session with the doctor</span></div>
+  </div>
+</section>
+
+<section id="treatments">
+  <div class="wrap">
+    <p class="eyebrow"><svg><use href="#pulse"/></svg>Treatments</p>
+    <h2>What we treat at Aarogya</h2>
+    <div class="cards">
+      <article class="card big">
+        <div class="ic"><svg><use href="#spine"/></svg></div>
+        <h3>Back Alignment & Slip Disc Management <span class="hi">पीठ संरेखण और स्लिप डिस्क प्रबंधन</span></h3>
+        <p>For lower back pain, sciatica pain running down the leg, and disc bulge seen on MRI. We combine spinal mobilisation, IFT or TENS for pain relief and a daily core-strength plan, so most patients avoid surgery and return to work.</p>
+        <span class="price">From ₹400 per session</span>
+        <a class="btn btn-fill" href="https://wa.me/919468901947?text=Namaste%20Dr.%20Rakesh%2C%20I%20have%20back%20pain%20%2F%20slip%20disc%20problem.%20I%20want%20an%20appointment.">Book for back pain</a>
+      </article>
+      <article class="card">
+        <div class="ic"><svg><use href="#pulse"/></svg></div>
+        <h3>Sports Injury & Rehab <span class="hi">स्पोर्ट्स इंजरी और रिहैब</span></h3>
+        <p>Hamstring pulls, shoulder strain and post-surgery recovery for cricketers, runners and gym-goers.</p>
+        <span class="price">From ₹400 per session</span>
+        <a class="btn btn-fill" href="https://wa.me/919468901947?text=Namaste%20Dr.%20Rakesh%2C%20I%20have%20a%20sports%20injury%20and%20need%20rehab.">Book on WhatsApp</a>
+      </article>
+      <article class="card">
+        <div class="ic"><svg><use href="#pulse"/></svg></div>
+        <h3>Ankle & Ligament Injuries <span class="hi">टखने और लिगामेंट चोटें</span></h3>
+        <p>Ankle sprains, ACL and MCL tears. Taping, balance training and strengthening to stop re-injury.</p>
+        <span class="price">From ₹400 per session</span>
+        <a class="btn btn-fill" href="https://wa.me/919468901947?text=Namaste%20Dr.%20Rakesh%2C%20I%20have%20an%20ankle%20%2F%20ligament%20injury.%20Please%20give%20an%20appointment.">Book on WhatsApp</a>
+      </article>
+      <article class="card w3">
+        <div class="ic"><svg><use href="#pulse"/></svg></div>
+        <h3>Joint Pain & Physiotherapy <span class="hi">जोड़ों का दर्द और फिजियोथेरेपी</span></h3>
+        <p>Knee arthritis, frozen shoulder, neck stiffness. Gentle mobility care for elderly parents, so they can climb stairs and sit on the floor again.</p>
+        <span class="price">From ₹350 per session</span>
+        <a class="btn btn-fill" href="https://wa.me/919468901947?text=Namaste%20Dr.%20Rakesh%2C%20I%20want%20treatment%20for%20joint%20%2F%20knee%20pain.">Book on WhatsApp</a>
+      </article>
+      <article class="card w3">
+        <div class="ic"><svg><use href="#pulse"/></svg></div>
+        <h3>General Physio & Rehabilitation <span class="hi">सामान्य फिजियोथेरेपी और पुनर्वास</span></h3>
+        <p>Recovery after fracture, paralysis or stroke, and exercise-based rehab for weakness and balance problems.</p>
+        <span class="price">From ₹350 per session</span>
+        <a class="btn btn-fill" href="https://wa.me/919468901947?text=Namaste%20Dr.%20Rakesh%2C%20I%20need%20physiotherapy%20for%20rehabilitation%20after%20___.">Book on WhatsApp</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<svg class="divider" aria-hidden="true" preserveAspectRatio="none"><use href="#pulse"/></svg>
+
+<section id="about" class="about">
+  <div class="wrap about-grid">
+    <div>
+      <p class="eyebrow">Meet your physiotherapist</p>
+      <h2>I opened this clinic so Bijainagar would not have to travel</h2>
+      <div class="avatar" aria-label="Dr. Rakesh Kumawat initials">RK</div>
+      <p>A few years before I started Aarogya, my grandmother injured her knee. For every session we had to take a bus to Ajmer or Bhilwara, and by the third week she simply stopped going. Her knee never fully recovered. That stayed with me.</p>
+      <p>In 2021 I opened Aarogya Physio at Krishi Mandi Chauraha, so that farmers, shopkeepers, students and our elders could get proper physiotherapy close to home. I explain every problem in simple Hindi, show you the exercises myself, and check your progress at every visit.</p>
+      <p>If you are not sure whether physiotherapy will help, just send me a WhatsApp with your problem. I will tell you honestly.</p>
+      <p class="sign">Dr. Rakesh Kumawat</p>
+    </div>
+    <ul class="diff">
+      <li><svg><use href="#check"/></svg><span><b>The doctor treats you himself,</b> not an assistant, every session.</span></li>
+      <li><svg><use href="#check"/></svg><span><b>Exercise-based rehab,</b> not just machines. You go home with a written plan.</span></li>
+      <li><svg><use href="#check"/></svg><span><b>Open 7 days,</b> including Sunday till 4 PM for working patients.</span></li>
+      <li><svg><use href="#check"/></svg><span><b>Elderly-friendly care</b> with patient handling for those who struggle to walk.</span></li>
+      <li><svg><use href="#check"/></svg><span><b>Clear fees told upfront,</b> no surprise packages.</span></li>
+    </ul>
+  </div>
+</section>
+
+<section id="gallery" class="gallery">
+  <div class="wrap">
+    <p class="eyebrow"><svg><use href="#pulse"/></svg>Inside the clinic</p>
+    <h2>Exercise, spine care and mobility</h2>
+    <div class="gal">
+      <img class="tall" loading="lazy" src="https://images.unsplash.com/photo-1666214280557-f1b5022eb634?w=800&auto=format&fit=crop" alt="Physiotherapist guiding a back exercise">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1597452485669-2c7bb5fef90d?w=800&auto=format&fit=crop" alt="Spine model used to explain posture">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&auto=format&fit=crop" alt="Stretching on an exercise mat">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&auto=format&fit=crop" alt="Strength training with dumbbells">
+      <img class="wide" loading="lazy" src="https://images.unsplash.com/photo-1519824145371-296894a0daa9?w=800&auto=format&fit=crop" alt="Elderly person walking for mobility">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&auto=format&fit=crop" alt="Doctor discussing treatment">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1434608519344-49d77a699e1d?w=800&auto=format&fit=crop" alt="Runner tying shoes before a run">
+    </div>
+  </div>
+</section>
+
+<section id="reviews">
+  <div class="wrap">
+    <p class="eyebrow"><svg><use href="#pulse"/></svg>Patient reviews</p>
+    <h2>5.0 stars, 24 reviews, real neighbours</h2>
+    <div class="tgrid">
+      <blockquote class="t">
+        <span class="stars" aria-label="5 stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></span>
+        <q>Slip disc ki wajah se dukaan pe baith nahi pata tha. Rakesh sir ke 12 sessions ke baad ab poora din kaam kar raha hoon, operation ki zarurat nahi padi.</q>
+        <cite>Mahesh Jain <small>· Station Road, Bijainagar</small></cite>
+      </blockquote>
+      <blockquote class="t">
+        <span class="stars" aria-label="5 stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></span>
+        <q>Twisted my ankle playing cricket before district trials. Sir did taping and gave balance exercises, I played the match in 3 weeks. Very friendly doctor.</q>
+        <cite>Aman Choudhary <small>· Gulabpura</small></cite>
+      </blockquote>
+      <blockquote class="t">
+        <span class="stars" aria-label="5 stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></span>
+        <q>Meri maa ke ghutno mein bahut dard tha. Doctor sahab ne bahut dhyaan se exercise sikhayi, ab woh mandir tak khud chal ke jaati hain.</q>
+        <cite>Sunita Sharma <small>· Krishi Mandi area</small></cite>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<svg class="divider" aria-hidden="true" preserveAspectRatio="none"><use href="#pulse"/></svg>
+
+<section id="fees">
+  <div class="wrap">
+    <p class="eyebrow">Fees</p>
+    <h2>Simple, upfront consultation and session fees</h2>
+    <div class="plist">
+      <div class="prow"><span>First consultation & assessment</span><span>₹300</span></div>
+      <div class="prow"><span>Back / slip disc / neck session</span><span>₹400</span></div>
+      <div class="prow"><span>Sports injury & ligament rehab session</span><span>₹400</span></div>
+      <div class="prow"><span>Joint pain / knee / shoulder session</span><span>₹350</span></div>
+      <div class="prow"><span>General physio & post-fracture rehab session</span><span>₹350</span></div>
+      <div class="prow"><span>Kinesio taping (per area)</span><span>₹250</span></div>
+    </div>
+    <p class="pnote">The number of sessions depends on your condition and is discussed at the first visit. Call or WhatsApp to confirm current fees.</p>
+  </div>
+</section>
+
+<section id="contact" style="background:var(--mint)">
+  <div class="wrap">
+    <p class="eyebrow"><svg><use href="#pulse"/></svg>Visit the clinic</p>
+    <h2>Opposite Maheshwari Agro, Krishi Mandi Chauraha</h2>
+    <div class="cgrid">
+      <div class="map">
+        <iframe title="Map to Aarogya Physio, Bijainagar" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Opposite%20Maheshwari%20Agro%2C%20Krishi%20Mandi%20Chauraha%2C%20Bijainagar%2C%20Beawar%2C%20Rajasthan&output=embed"></iframe>
+      </div>
+      <div>
+        <h3>Clinic hours</h3>
+        <div class="hours">
+          <span>Monday – Saturday</span><span>9:00 AM – 6:00 PM</span>
+          <span>Sunday</span><span>9:00 AM – 4:00 PM</span>
+        </div>
+        <ul class="cl">
+          <li>📞 <a href="tel:+919468901947">+91 94689 01947</a></li>
+          <li>💬 <a href="https://wa.me/919468901947?text=Namaste%2C%20please%20share%20the%20clinic%20location%20and%20a%20free%20time%20slot.">WhatsApp for appointment</a></li>
+          <li>📍 <a href="https://maps.google.com/?q=Opposite%20Maheshwari%20Agro%2C%20Krishi%20Mandi%20Chauraha%2C%20Bijainagar%2C%20Beawar%2C%20Rajasthan" target="_blank" rel="noopener">Opposite Maheshwari Agro, Bhanwar Body, Krishi Mandi Chauraha, Bijainagar, Beawar District, Rajasthan</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap fgrid">
+    <div>
+      <h3>आरोग्य Physio</h3>
+      <p>Expert physiotherapy and rehabilitation care for pain-free living.</p>
+    </div>
+    <ul class="fl">
+      <li><a href="#treatments">Treatments</a></li><li><a href="#about">Dr. Rakesh</a></li><li><a href="#fees">Fees</a></li><li><a href="#contact">Visit</a></li>
+    </ul>
+    <div>
+      <p style="margin-bottom:12px">Tell us where it hurts. We reply the same day.</p>
+      <a class="btn btn-fill bigwa" href="https://wa.me/919468901947?text=Namaste%20Dr.%20Rakesh%2C%20I%20want%20to%20discuss%20my%20pain%20problem%20and%20book%20a%20visit."><svg><use href="#wa"/></svg>Message Dr. Rakesh</a>
+    </div>
+  </div>
+  <p class="credit">© <span id="yr"></span> aarogya physio, bijainagar · built with ❤️ by 21.coders</p>
+</footer>
+
+<div class="bar">
+  <a href="tel:+919468901947"><svg><use href="#phone"/></svg>Call</a>
+  <a href="https://wa.me/919468901947?text=Namaste%2C%20I%20want%20to%20book%20a%20physiotherapy%20appointment."><svg><use href="#wa"/></svg>WhatsApp</a>
+</div>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+function toggleNav(b){var n=document.getElementById('mnav');var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o)}
+document.querySelectorAll('.mnav a').forEach(function(a){a.addEventListener('click',function(){document.getElementById('mnav').classList.remove('open')})});
+</script>
+</body>
+</html>
